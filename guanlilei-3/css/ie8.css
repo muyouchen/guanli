@@ -1,0 +1,47 @@
+.checkboxFour input{visibility: inherit;position: absolute;top:118px;left:29px;}
+.checkboxFour1 input{visibility: inherit;position: absolute;top:77px;left:29px;}
+.checkboxFourman input{visibility: inherit;position: absolute;top:19px;left:0px;*top:19px;*left:0px;}
+.checkboxFourwoman input{visibility: inherit;position: absolute;top:19px;left:112px;*top:19px;*left:112px;}
+.checkboxFour0 input{visibility: inherit;position: absolute;left:0px;*left:0px;}
+.checkboxFour01 input{visibility: inherit;position: absolute;left:0px;*left:0px;}
+.checkboxFour2 input{visibility: inherit;position: absolute;left:0px;*left:0px;}
+.checkboxFour3 input{visibility: inherit;position: absolute;left:0px;*left:0px;}
+.checkboxFour4 input{visibility: inherit;position: absolute;left:0px;*left:0px;}
+
+
+.checkboxFour label {display: block;width:15px;height:15px;border-radius: 100px;cursor: pointer;position: absolute;top:118px;left:29px;z-index: 1;background:none;}
+.checkboxFour1 label {display: block;width:15px;height:15px; cursor: pointer;position: absolute;top:77px;left:29px;z-index: 1;background:none;}
+.checkboxFourman label {display: block;width:15px;height:15px; cursor: pointer;position: absolute;top:19px;left:0px;*top:19px;*left:0px;z-index: 1;background:none;}
+.checkboxFourwoman label {display: block;width:15px;height:15px;border-radius: 100px;cursor: pointer;position: absolute;top:19px;left:112px;*top:19px;*left:112px;z-index: 1;background:none;}
+.checkboxFour0 label {display: block;width:15px;height:15px;border-radius:100px;cursor:pointer;position: absolute;left:0px;*left:0px;z-index: 1;background:none;}
+.checkboxFour01 label {display: block;width:15px;height:15px;border-radius:100px;cursor:pointer;position: absolute;left:0px;left:0px;z-index: 1;background:none;}
+.checkboxFour2 label {display: block;width:15px;height:15px;border-radius:100px;cursor:pointer;position: absolute;left:0px;*left:0px;z-index: 1;background:none;}
+.checkboxFour3 label {display: block;width:15px;height:15px;border-radius:100px;cursor:pointer;position: absolute;left:0px;*left:0px;z-index: 1;background:none;}
+.checkboxFour4 label {display: block;width:15px;height:15px;border-radius:100px;cursor:pointer;position: absolute;left:0px;*left:0px;z-index: 1;background:none;}
+
+.checkboxFour {width:15px;height:15px;  border-radius: 100%;display: inline-block;}
+.checkboxFour1 {width:15px;height:15px;  border-radius: 100%;display: inline-block;}
+.checkboxFourman {width:15px;height:15px;  border-radius: 100%;display: inline-block;}
+.checkboxFourwoman {width:15px;height:15px;  border-radius: 100%;display: inline-block;}
+.checkboxFour0,.checkboxFour01,.checkboxFour2,.checkboxFour3,.checkboxFour4{width:15px;height:15px;  border-radius: 100%;display: inline-block;}
+
+
+.checkboxFour input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFour1 input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFourman input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFourwoman input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFour0 input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFour01 input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFour2 input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFour3 input[type=checkbox]:checked + label:after{background:none;}
+.checkboxFour4 input[type=checkbox]:checked + label:after{background:none;}
+
+
+.zntzgw-man span{position:absolute;font-size:20px;color:#42464e;left:29px;top:10px;*top:14px;}
+.zntzgw-woman span{position:absolute;font-size:20px;color:#42464e;left:142px;top:10px;*top:14px;}
+
+.zntzgw-q1 span,.zntzgw-q2 span,.zntzgw-q3 span,.zntzgw-q4 span,.zntzgw-q5 span{font-size:20px;color:#42464e;line-height:33px;margin-left:39px;}
+
+
+
+

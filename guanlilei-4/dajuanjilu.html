@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>答卷记录</title>
+        <script type="text/javascript" src="js/jquery-1.12.0.js" ></script>
+		<link href="css/dajuanjilu.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/back.css" />
+		<link rel="icon" href="img/ico.ico"/>
+	</head>
+	<body onselectstart="return false" style="-moz-user-select:none;">
+		
+		<div class="bContent clearFix">
+			<div class="bMain">
+				<div class="leftNav">
+					<dl>
+                        <dt>机构管理菜单</dt>
+                        <dd><a href="#">基本资料</a></dd>
+                        <dd class="cur"><a href="#">门户自定义</a></dd>
+                    </dl>
+				</div>
+				
+
+
+				<div class="rightCon"  style="padding:0;float:left;  ">
+                    <div style="height:40px;line-height:40px;color:#999999;font-size: 14px;padding-left:30px;    ">
+                        <span>您当前位置：机构管理-门户自定义</span>
+                    </div>
+                    <div style="height:38px;width:100%;border:1px solid #eee;border-left:none;border-right:none;overflow:hidden;     ">
+                        <a href="shijuanguanli.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;      " >试卷管理</a>
+                        <a href="dajuanjilu.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;      " class="liang" >答卷记录</a>
+                        <a href="yuejuanlaoshiguanli.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;     ">阅卷老师管理</a>
+                        <a href="menhubannershezhi.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee; float:left;    ">门户banner管理</a>
+                        <a href="guanyuwomen.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;     ">关于我们页面编辑</a>
+                        <a href="lianxiwomen.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.42%;line-height:40px;text-align: center;display:inline-block;float:left;     " >联系我们页面编辑</a>
+                    </div>
+                    <div style="padding:30px; padding-top:10px; ">
+    					<div class="searcha">
+    							<span>学段：</span>
+                            	<select>
+                                	<option selected="selected">全部</option>
+                                    <option>小学</option>
+                                    <option>初中</option>
+                                    <option>高中</option>
+                                </select>
+                                <span style="margin-left:60px; ">学科：</span>
+                            	<select >
+                                	<option selected="selected">全部</option>
+                                    <option>小学</option>
+                                    <option>初中</option>
+                                    <option>高中</option>
+                                </select>
+                            	<input type="text" class="sertxt" value="请输入试卷名称关键字" />
+                                <span class="sertb"></span>
+                        </div>
+    					<table width="100%" cellpadding="0" cellspacing="0" border="0" class="biao">
+                                <tr>
+                                    <th width="5%">序号</th>
+                                    <th width="18%">试卷名称</th>
+                                    <th width="5%">学段</th>
+                                    <th width="5%">年级</th>
+                                    <th width="5%">学科</th>
+                                    <th width="11%">测试学生</th>
+                                    <th width="13%">完成时间</th>
+                                    <th width="10%">批阅状态</th>
+                                    <th width="13%">指定阅卷老师</th>
+                                    <th width="15%">操作</th>
+                                </tr>
+                                <tr>
+                                	<td>01</td>
+                                    <td>七年级英语入学测试卷</td>
+                                    <td>初中</td>
+                                    <td>七年级</td>
+                                    <td>英语</td>
+                                    <td>130687898925</td>
+                                    <td>2015.08.29 09:50</td>
+                                    <td>未批阅</td>
+                                    <td>高珍珍</td>
+                                    <td>
+                                        <span class="edite tui" >推送</span>
+                                        <span class="del" >查看</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>01</td>
+                                    <td>七年级英语入学测试卷</td>
+                                    <td>初中</td>
+                                    <td>七年级</td>
+                                    <td>英语</td>
+                                    <td>130687898925</td>
+                                    <td>2015.08.29 09:50</td>
+                                    <td>未批阅</td>
+                                    <td>高珍珍</td>
+                                    <td>
+                                        <span class="edite tui" >推送</span>
+                                        <span class="del" >查看</span>
+                                    </td>
+                                </tr>
+                               <tr>
+                                    <td>01</td>
+                                    <td>七年级英语入学测试卷</td>
+                                    <td>初中</td>
+                                    <td>七年级</td>
+                                    <td>英语</td>
+                                    <td>130687898925</td>
+                                    <td>2015.08.29 09:50</td>
+                                    <td>未批阅</td>
+                                    <td>高珍珍</td>
+                                    <td>
+                                        <span class="edite tui" >推送</span>
+                                        <span class="del" >查看</span>
+                                    </td>
+                                </tr>
+                        </table>
+                    </div>
+				</div>
+			</div>
+		</div>
+		
+
+        <div id="ceng"></div>
+        <!--弹出框-->
+
+        <div class="alertBox tan" style="display: none;">
+            <div class="alertLoginBox" style="padding:0 10px; ">
+                <img class="closeAlertBox" src="images/icon-007.png"/>
+                <div class="rightCon" >
+                    <div class="curTitle">
+                        <span>选择推送对象</span>
+                    </div>
+                </div>
+                <div style="width:70.8%;background:#f7f7f7;line-height:45px;margin-top:15px;position:relative;padding:0 8px;box-sizing:border-box;">
+                    <span style="color:black;">机构老师名单</span>
+                    <input type="text" class="sertxt wee" value="输入老师姓名、手机号码"  style="width:200px;position:absolute;top:13px;right:8px;color:#919191;  "/>
+                    <span class="sert" style="top:13px;right:5px;"></span>
+                </div>
+                <div style="margin:0;display:flex;position:relative;"    >
+                    <div style="cursor: pointer;">
+                                <table width="180px";cellpadding="0" cellspacing="0" border="0" class="biao3" style="margin:0;  " rules="none">
+                                     <tr>
+                                        <th width="100%">教学点名称</th>
+                                    </tr>
+                                </table>
+                                <div style="height:287px;overflow: auto;overflow-x: hidden;">
+                                <table  width="180px";cellpadding="0" cellspacing="0" border="0" class="biao3" style="margin:0;  " rules="none" style="margin:0; ">   
+                                    <tr class="cct" title="聚德花苑辅导中心1聚德花苑辅导中心1">
+                                        <td>聚德花苑辅导中心1</td>
+                                    </tr>
+                                    <tr class="cct" title="聚德花苑辅导中心2聚德花苑辅导中心2">
+                                        <td>聚德花苑辅导中心2</td>
+                                    </tr>
+                                    <tr class="cct" title="聚德花苑辅导中心3聚德花苑辅导中心3">
+                                        <td>聚德花苑辅导中心3</td>
+                                    </tr>
+                                    <tr class="cct" title="聚德花苑辅导中心4聚德花苑辅导中心4">
+                                        <td>聚德花苑辅导中心4</td>
+                                    </tr>
+                                    <tr class="cct" title="聚德花苑辅导中心5聚德花苑辅导中心5">
+                                        <td>聚德花苑辅导中心5</td>
+                                    </tr>
+                                    <tr class="cct">
+                                        <td>聚德花苑辅导中心4</td>
+                                    </tr>
+                                    <tr class="cct">
+                                        <td>聚德花苑辅导中心5</td>
+                                    </tr>
+                                    <tr class="cct">
+                                        <td>聚德花苑辅导中心4</td>
+                                    </tr>
+                                    <tr class="cct">
+                                        <td>聚德花苑辅导中心5</td>
+                                    </tr>
+                                    <tr class="cct">
+                                        <td>聚德花苑辅导中心4</td>
+                                    </tr>
+                                    <tr class="cct">
+                                        <td>聚德花苑辅导中心5</td>
+                                    </tr>
+                                </table>
+                                </div>
+                            </div>
+                    <div style="cursor: pointer;" class="eo">
+                        <table cellpadding="0" cellspacing="0" border="0" class="biao4 wx1" style="margin:0;" width="300px" rules="none">
+                           <tr class="rtt">
+                                        <th width="30%">老师姓名</th>
+                                        <th width="25%">手机号码</th>
+                                        <th width="20%">学段</th>
+                                        <th width="25%">学科</th>
+                          </tr> 
+
+                        </table>
+                        <div style="height: 287px;overflow: auto;overflow-x: hidden;" class="ttg">
+                        <table  cellpadding="0" cellspacing="0" border="0" class="biao1  wx1" style="margin:0;" width="300px" rules="none">   
+                                    
+                                    <tr class="tt">
+                                        <td class="xing">丁晓晓1</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">张三</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">李四</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">王五</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">李晨心</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                   
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>   
+                            </table>
+                            <table  cellpadding="0" cellspacing="0" border="0" class="biao1 " style="margin:0;display:none;" width="300px" rules="none">   
+                                   
+                                    <tr class="tt">
+                                        <td class="xing">丁晓晓2</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">张三</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">李四</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">王五</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">李晨心</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                   
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>   
+                            </table>
+                            <table  cellpadding="0" cellspacing="0" border="0" class="biao1 " style="margin:0;display:none;" width="300px" rules="none">   
+                                   
+                                    <tr class="tt">
+                                        <td class="xing">丁晓晓3</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">张三</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">李四</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">王五</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">李晨心</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                   
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>   
+                            </table>
+                            <table  cellpadding="0" cellspacing="0" border="0" class="biao1 " style="margin:0;display:none;" width="300px" rules="none">   
+                                    
+                                    <tr class="tt">
+                                        <td class="xing">丁晓晓4</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">张三</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">李四</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">王五</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">李晨心</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                   
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>   
+                            </table>
+                            <table  cellpadding="0" cellspacing="0" border="0" class="biao1 " style="margin:0;display:none;" width="300px" rules="none">   
+                                    
+                                    <tr class="tt">
+                                        <td class="xing">丁晓晓5</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">张三</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">李四</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">王五</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                    <tr class="tt">
+                                        <td class="xing">李晨心</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr> 
+                                   
+                                    <tr class="tt">
+                                        <td class="xing">王小夏</td>
+                                        <td>15933697520</td>
+                                        <td>小学</td>
+                                        <td>英语</td>
+                                    </tr>   
+                            </table>
+                            </div>
+                            </div>
+                            <div style="margin:0 10px;width:64px;position:absolute;left:480px;    ">
+                            		<p style="font-size:50px;line-height:100px;text-align:center;margin-top:50px;cursor:pointer; "class="qu2">></p>
+                                    <p style="font-size:50px;line-height:100px;text-align:center;position:relative;top:50px; cursor:pointer;" class="qu1"><</p><br/>
+                                  
+        
+                            </div>
+                            <div style="height:348px;overflow: auto;overflow-x: hidden;position:absolute;left:565px; ">
+                                <table width="120px";cellpadding="0" cellspacing="0" border="0" class="biao5" style="margin:0;  " rules="none">
+                                    <tr>
+                                        <th width="100%">推送对象名单</th>
+                                    </tr>
+                                </table>
+                                <div style="height: 287px;overflow: auto;overflow-x: hidden;">
+                                <table  width="120px";cellpadding="0" cellspacing="0" border="0" class="biao2" style="margin:0;  " rules="none">   
+                                   	<tr >
+                                   		<td style='height:24px;border:1px solid #e6e6e6; ' class="mii">
+                                   		</td>
+                                   	</tr>
+                                </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top:50px;width:100%;   ">
+                            <button style="background:#f7f7f7;color:#b4b4b4;border:1px solid #eee;width:100px;height: 30px;margin: 0 auto;display:block;  font-size:16px;" class="qweu">确定</button>
+                        </div>   
+
+
+
+
+            </div>
+        </div>
+		
+		
+    
+
+	</body>
+    <script type="text/javascript">
+       $(function() {
+       		$(".qweu").click(function(){
+                $(".ct").remove();
+                $(".mii").show();
+            });
+            $(".cct").click(function(){
+                $(".cct").removeClass("jia");
+                $(".cct").find("td").removeClass("jia");
+                $(this).toggleClass("jia");
+                $(this).find("td").toggleClass("jia");
+                var et=$(this).index();
+                $(".biao1").hide();
+                $(".biao1:eq("+et+")").show();
+
+            });
+            $(".tui").click(function(){
+                $("#ceng").show();
+                $(".tan").show();
+
+            });
+            $(".closeAlertBox").click(function(){
+                $(".tan").hide();
+                $("#ceng").hide() 
+            });
+            var rrr="";
+            var ttt="";
+            var eee="";
+            $(document).on("click",".tt", function () {
+            	
+                $(this).toggleClass("jia");
+                $(this).find("td").toggleClass("jia");
+                if($(this).hasClass('jia')){
+                  rrr+=$(this).find(".xing").html()+"=";
+                     
+                }
+                else{
+                 
+                 
+                 rrr=rrr.replace($(this).find(".xing").html()+"=",""); 
+                 
+
+                }
+                
+                
+            });
+            $(document).on("dblclick",".tt", function () {
+                $(".mii").hide();
+                rrr=$(this).find(".xing").html();
+
+                var aaq=0;
+                $ ('.biao2 .ct td').each (function ()
+                {
+                    if($(this).html()==rrr){
+                        aaq=1;
+                    }
+                });
+                if(aaq==0){
+                    var str=$("<tr class='ct'></tr>");
+                    var std=$("<td ></td>").html(rrr);
+                    str.append(std);
+                    $(".biao2").append(str);   
+                }
+
+                
+
+                rrr="";
+            });
+            $(document).on("dblclick",".ct", function (e) {
+            	$(".mii").hide();
+                e.preventDefault();
+                eee=$(this);
+                ttt=$(this).find("td").html();
+                eee.remove();
+                var str=$("<tr class='tt'></tr>");
+                
+                var std2=$("<td class='xing'></td>").html(ttt);
+                var std3=$("<td>15933697520</td><td>小学</td><td>英语</td>");
+                
+                str.append(std2);
+                str.append(std3);
+                $(".biao1").append(str);
+                ttt="";
+            });
+            $(document).on("click", ".ct", function () {
+            	$(".mii").hide();
+                eee=$(this);
+                $(this).toggleClass("jia");
+                $(this).find("td").toggleClass("jia");
+
+                if($(this).hasClass('jia')){
+                  ttt+=$(this).find("td").html()+"=";
+                     
+                }
+                else{
+                 
+                 
+                 
+                ttt=ttt.replace($(this).find("td").html()+"=",""); 
+                  
+                }
+
+                
+            });
+            
+            $(document).on("click", ".qu2", function () {
+            	$(".mii").hide();
+                if(rrr!=""){
+                    $(".tt").removeClass("jia");
+                    $(".tt").find("td").removeClass("jia");
+                    
+                    var arr= new Array();
+                    arr=rrr.split("=");
+                    for (i=0;i<arr.length-1 ;i++ )
+                    {   
+                        var qqe=0;
+                        $ ('.biao2 .ct td').each (function ()
+                        {
+                            if($(this).html()==arr[i]){
+                                qqe=1;
+                            }
+                        });
+                       if(qqe==0){
+                            var str=$("<tr class='ct'></tr>");
+                            var std=$("<td ></td>").html(arr[i]);
+                            str.append(std);
+                            $(".biao2").append(str);
+                        }
+                    } 
+                    rrr="";
+                    
+                }
+            });
+            
+          
+             $(document).on("click", ".qu1", function () {
+             	 $(".mii").hide();
+                 if(ttt!=""&&eee!=""){
+                        // $(".ct").removeClass("jia");
+                        // eee.remove();
+                        $(" .biao2 .jia").remove();
+
+                       
+
+
+                        var arr1= new Array();
+                        arr1=ttt.split("=");
+
+                        for (i=0;i<arr1.length-1 ;i++ )
+                        {
+                            var strr=$("<tr class='tt'></tr>");
+                            var stdr2=$("<td class='xing'></td>").html(arr1[i]);
+                            var stdr3=$("<td>15933697520</td><td>小学</td><td>英语</td>");
+                           strr.append(stdr2);
+                           strr.append(stdr3);
+                           $(".biao1").append(strr);
+                        } 
+                       ttt=""; 
+
+
+                        // var str=$("<tr class='tt'></tr>");
+                       
+                        // var std2=$("<td class='xing'></td>").html(ttt);
+                        // var std3=$("<td>15933697520</td><td>小学</td><td>英语</td>");
+                        
+                        // str.append(std2);
+                        // str.append(std3);
+                        // $(".biao1").append(str);
+                        // ttt="";
+                        if(!$(".ct").length>0){
+                        	
+                        	 $(".mii").show();
+                        		
+                        }
+                        
+                 }   
+            });
+           
+            
+
+            $('.wee').keyup(function(){
+               
+                $('.wx1 tr').hide()
+                 .filter(":contains('" +($(this).val()) + "')").show();
+                 if($('.wx1 tr')
+                 .filter(":contains('" +($(this).val()) + "')").length>0){
+                    $(".biao4 .rtt").show();
+                    
+                 }
+                 
+                }).keyup(function(){  $('.wx1 ').show()});
+            $(".wee").click(function(){
+                $(this).val("");
+            });
+            
+            
+        });
+    </script>
+</html>

@@ -1,0 +1,515 @@
+.liang{
+	background: #9ad389;
+	color:#ffffff !important;
+}
+.bHeader {
+	height:100px;
+	width: 100%;
+	background: #333;
+	border-bottom: 3px solid #85c146;
+}
+.bHeader .bCon {
+	width:1190px;
+	margin:auto;
+	height: 100px;
+}
+.bHeader .bCon .bLogo {
+	width:92px;
+	height:67px;
+	margin:19px 0 0 0;
+	float: left;
+	display: block;
+}
+.bHeader .bCon .bMenu {
+	float: right;
+	padding:40px 0;
+	height: 20px;
+	line-height: 20px;
+	font-size:16px;
+	color:#fff;
+}
+.bHeader .bCon .bMenu dd {
+	float: left;
+	margin-left:30px;
+}
+.bHeader .bCon .bMenu dd a {
+	font-size:16px;
+	color:#fff;
+}
+.bHeader .bCon .bMenu .bMan {
+	padding-left:20px;
+	background: url(../img/icon-001.png) left center no-repeat;
+}
+.bHeader .bCon .bMenu .bMsg {
+	padding-left:20px;
+	background: url(../img/icon-002.png) left center no-repeat;
+}
+.bHeader .bCon .bMenu .bExit {
+	padding-left:20px;
+	background: url(../img/icon-003.png) left center no-repeat;
+}
+
+.bContent {
+	padding:40px 0 150px 0;
+	background:url(../img/imgBg-003.jpg) center bottom no-repeat;
+}
+
+.bContent .bMain {
+	width:1190px;
+	margin:auto;
+}
+
+.bContent .bMain .leftNav {
+	width:198px;
+	min-height: 1380px;
+	padding:30px;
+	background:#f7f7f7;
+	border:1px solid #eee;
+	border-right: 0;
+	float: left;
+}
+.bContent .bMain .leftNav dl dt {
+	height: 48px;
+	line-height: 48px;
+	font-size:18px;
+	color:#333;
+}
+.bContent .bMain .leftNav dl dd {
+	height: 48px;
+	line-height: 48px;
+	font-size:14px;
+	color:#999;
+	border-bottom: 1px solid #eee;
+}
+.bContent .bMain .leftNav dl dd.cur{
+	background: url(../img/icon-006.png) right center no-repeat;
+}
+.bContent .bMain .leftNav dl dd.cur a {
+	color:#4fc76e;
+}
+.bContent .bMain .rightCon {
+	width:929px;
+	min-height:1440px;
+	padding:30px;
+	border:1px solid #eee;
+	float: right;
+	background: #fff;
+	box-sizing:border-box;
+}
+.curTitle {
+	height: 48px;
+	line-height: 48px;
+	border-bottom: 2px solid #eee;
+}
+.curTitle span {
+	color:#333;
+	font-size: 18px;
+	display: inline-block;
+	float: left;
+	border-bottom: 2px solid #2EBB00;
+}
+.curTitle a {
+	float: right;
+	display: inline-block;
+	width:90px;
+	height: 30px;
+	line-height:30px;
+	text-align: center;
+	margin-top:10px;
+	margin-left:20px;
+	border:1px solid #eee;
+	font-size: 14px;
+}
+.curTitle a.updata {
+	border:1px solid #2EBB00;
+	background: #2EBB00;
+	color:#fff;
+}
+.colTitle {
+	border-left:3px solid #2EBB00;
+	color:#2EBB00;
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	padding-left:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+	clear: both;
+}
+.jigouIntro .inputIntro {
+	position: relative;
+	width:480px;
+	height:165px;
+	border:1px solid #eee;
+	float:left;
+	padding:15px 10px 15px 20px;
+	background: #fbfbfb;
+}
+.jigouIntro .inputIntro textarea{
+	width: 480px;
+	height: 160px;
+	overflow-y: scroll;
+	font-size: 14px;
+	color:#666;
+	background: #fbfbfb;
+	border: none;
+}
+.jigouIntro .inputIntro span {
+	position: absolute;
+	right:10px;
+	bottom:0px;
+	font-size:12px;
+}
+.jigouIntro .inputIntro span font {
+	color: #2EBB00;
+}
+.jigouIntro .uploadImgBox {
+	position: relative;
+	width:336px;
+	height:195px;
+	border:1px solid #eee;
+	float:right;
+}
+.jigouIntro .uploadImgBox img {
+	width: 336px;
+	height: 195px;
+}
+.jigouIntro .uploadImgBox a {
+	position: absolute;
+	left:102px;
+	top:120px;
+	display: inline-block;
+	width:90px;
+	height: 30px;
+	line-height:30px;
+	text-align: center;
+	margin-top:10px;
+	margin-left:20px;
+	border:1px solid #eee;
+	font-size: 14px;
+	background: #fff;
+}
+
+.teacherInfo .upUserImg{
+	width:434px;
+	float:left;
+}
+.teacherInfo .upUserImg .title {
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+	background:#86c840;
+	color:#fff;
+	font-size:14px;
+	margin-bottom: 10px;
+}
+.teacherInfo .upUserImg dl dt {
+	width:220px;
+	height:220px;
+	float:left;
+	background: #F7F7F7;
+	border:1px solid #eee;
+}
+.teacherInfo .upUserImg dl dt img {
+	width:220px;
+	height:220px;
+}
+.teacherInfo .upUserImg dl dd {
+	width:190px;
+	padding:30px 10px;
+	float: right;
+}
+.teacherInfo .upUserImg dl dd p {
+	line-height: 24px;
+}
+.teacherInfo .upUserImg dl dd a {
+	display: inline-block;
+	width:90px;
+	height: 30px;
+	line-height:30px;
+	text-align: center;
+	margin-top:10px;
+	margin-left:20px;
+	border:1px solid #eee;
+	font-size: 14px;
+	background: #fff;
+}
+.teacherInfo .userDefInfo{
+	width:434px;
+	float:right;
+}
+.teacherInfo .userDefInfo .title {
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+	background:#6cbce6;
+	color:#fff;
+	font-size:14px;
+	margin-bottom: 10px;
+}
+.teacherInfo .userDefInfo dl {
+	display: block;
+	padding-bottom: 10px;
+}
+.teacherInfo .userDefInfo dl dt {
+	float:left;
+	width: 64px;
+	line-height: 34px;
+	text-align:right;
+}
+.teacherInfo .userDefInfo dl dd {
+	float: right;
+}
+.teacherInfo .userDefInfo dl dd input {
+	height:34px;
+	line-height: 34px;
+	background: #f7f7f7;
+	border:1px solid #eee;
+	width:350px;
+	padding-left:10px;
+}
+.teacherInfo .userDefInfo dl dd.texarea {
+	position: relative;
+	width:330px;
+	height:165px;
+	border:1px solid #eee;
+	float:right;
+	padding:15px 10px 15px 20px;
+	background: #fbfbfb;
+}
+.teacherInfo .userDefInfo dl dd.texarea textarea{
+	width: 330px;
+	height: 160px;
+	overflow-y: scroll;
+	font-size: 14px;
+	color:#666;
+	background: #fbfbfb;
+	border: none;
+}
+.teacherInfo .userDefInfo dl dd.texarea span {
+	position: absolute;
+	right:10px;
+	bottom:0px;
+	font-size:12px;
+}
+.teacherInfo .userDefInfo dl dd.texarea span font {
+	color: #2EBB00;
+}
+
+.addTeacher {
+	display: block;
+	height:48px;
+	line-height: 48px;
+	border:1px solid #eee;
+	font-size:14px;
+	text-align: center;
+	margin:10px auto;
+}
+.addTeacher img {
+	margin-right: 10px;
+}
+
+.schoolPic .imgBox {
+	position: relative;
+	width:268px;
+	height:192px;
+	border:1px solid #eee;
+	float:left;
+	margin-right:15px;
+	margin-bottom: 15px;
+}
+.schoolPic .imgBox img {
+	width:268px;
+	height:192px;
+}
+.schoolPic .imgBox a {
+	position: absolute;
+	left:73px;
+	top:120px;
+	display: inline-block;
+	width:90px;
+	height: 30px;
+	line-height:30px;
+	text-align: center;
+	margin-top:10px;
+	margin-left:20px;
+	border:1px solid #eee;
+	font-size: 14px;
+	background: #fff;
+}
+.infoInputBox {
+	position: relative;
+	padding-bottom: 30px;
+}
+.infoInputBox .title1 {
+	position: relative;
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+	background:#2EBB00;
+	color:#fff;
+	font-size:14px;
+	margin-bottom: 10px;
+}
+.infoInputBox .title1 a {
+	position: absolute;
+	top:0;
+	right: 0;
+	width:30px;
+	height: 30px;
+	display: inline-blockblock;
+	background: url(../img/icon-004.png) center center no-repeat;
+}
+.infoInputBox .title2 {
+	position: relative;
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+	background:#6cbce6;
+	color:#fff;
+	font-size:14px;
+	margin-bottom: 10px;
+}
+.infoInputBox .title2 a {
+	position: absolute;
+	top:0;
+	right: 0;
+	width:30px;
+	height: 30px;
+	display: inline-blockblock;
+	background: url(../img/icon-004.png) center center no-repeat;
+}
+
+.infoInputBox .del {
+	display: block;
+	width:26px;
+	height:26px;
+	position: absolute;
+	right:0;
+	top:40px;
+	background: url(../img/icon-007.png) center center no-repeat;
+}
+.infoInputBox dl {
+	display: block;
+	padding-bottom: 10px;
+}
+.infoInputBox dl dt {
+	float:left;
+	width: 100px;
+	line-height: 34px;
+	text-align:left;
+}
+.infoInputBox dl dd {
+	float: left;
+}
+.infoInputBox dl dd input {
+	height:34px;
+	line-height: 34px;
+	background: #f7f7f7;
+	border:1px solid #eee;
+	width:460px;
+	padding-left: 10;
+}
+.infoInputBox dl dd.texarea {
+	position: relative;
+	width:430px;
+	height:165px;
+	border:1px solid #eee;
+	float:left;
+	padding:15px 10px 15px 20px;
+	background: #fbfbfb;
+}
+.infoInputBox dl dd.texarea textarea{
+	width: 430px;
+	height: 160px;
+	overflow-y: scroll;
+	font-size: 14px;
+	color:#666;
+	background: #fbfbfb;
+	border: none;
+}
+.infoInputBox dl dd.texarea span {
+	position: absolute;
+	right:10px;
+	bottom:0px;
+	font-size:12px;
+}
+.infoInputBox dl dd.texarea span font {
+	color: #2EBB00;
+}
+
+.otherInfo .left {
+	width:50%;
+	float: left;
+}
+
+.otherInfo .right {
+	width:50%;
+	float: right;
+}
+.otherInfo .cTitle {
+	border-left:3px solid #2EBB00;
+	color:#2EBB00;
+	font-size: 16px;
+	height: 16px;
+	line-height: 16px;
+	padding-left:10px;
+	margin-top:40px;
+	margin-bottom:40px;
+	clear: both;
+}
+.otherInfo .left dl dt {
+	width:220px;
+	height: 220px;
+	overflow: hidden;
+}
+.otherInfo .left dl dt img {
+	width:220px;
+	height: 220px;
+}
+.otherInfo .left dl dd {
+	width: 220px;
+	padding:10px 0 0 0;
+	text-align: center;
+}
+.otherInfo .left dl dd a {
+	margin: auto;
+	display: inline-block;
+	width:90px;
+	height: 30px;
+	line-height:30px;
+	text-align: center;
+	border:1px solid #eee;
+	font-size: 14px;
+	background: #fff;
+}
+
+.otherInfo .right dl {
+	display: block;
+	padding-bottom: 10px;
+}
+.otherInfo .right dl dt {
+	float:left;
+	width: 100px;
+	line-height: 34px;
+	text-align:left;
+}
+.otherInfo .right dl dd {
+	float: left;
+}
+.otherInfo .right dl dd input {
+	height:34px;
+	line-height: 34px;
+	background: #f7f7f7;
+	border:1px solid #eee;
+	width:320px;
+	padding-left:10px;
+}
+
+
+
+
+
+
+
+

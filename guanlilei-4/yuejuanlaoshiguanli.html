@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>阅卷老师管理</title>
+        <script type="text/javascript" src="js/jquery-1.12.0.js" ></script>
+		<link href="css/yuejuanlaoshiguanli.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/back.css" />
+		<link rel="icon" href="img/ico.ico"/>
+	</head>
+	<body onselectstart="return false" style="-moz-user-select:none;">
+		
+		<div class="bContent clearFix">
+			<div class="bMain">
+				<div class="leftNav">
+					<dl>
+                        <dt>机构管理菜单</dt>
+                        <dd><a href="#">基本资料</a></dd>
+                        <dd class="cur"><a href="#">门户自定义</a></dd>
+                    </dl>
+				</div>
+				
+
+
+				
+                    <div class="rightCon you1"  style="padding:0;float:left;  ">
+                    <div style="height:40px;line-height:40px;color:#999999;font-size: 14px;padding-left:30px;    ">
+                        <span>您当前位置：机构管理-门户自定义</span>
+                    </div>
+                   <div style="height:38px;width:100%;border:1px solid #eee;border-left:none;border-right:none;overflow:hidden;     ">
+                        <a href="shijuanguanli.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;      " >试卷管理</a>
+                        <a href="dajuanjilu.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;      "  >答卷记录</a>
+                        <a href="yuejuanlaoshiguanli.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;     " class="liang">阅卷老师管理</a>
+                        <a href="menhubannershezhi.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee; float:left;    ">门户banner管理</a>
+                        <a href="guanyuwomen.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;     " >关于我们页面编辑</a>
+                        <a href="lianxiwomen.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.42%;line-height:40px;text-align: center;display:inline-block;float:left;     " >联系我们页面编辑</a>
+                </div>
+                    <div style="padding:30px; padding-top:10px; ">
+    					<div class="searcha">
+    							<span>学段：</span>
+                            	<select>
+                                	<option selected="selected">全部</option>
+                                    <option>小学</option>
+                                    <option>初中</option>
+                                    <option>高中</option>
+                                </select>
+                                <span style="margin-left:60px; ">学科：</span>
+                            	<select style="margin-right:182px; ">
+                                	<option selected="selected">全部</option>
+                                    <option>语文</option>
+                                    <option>数学</option>
+                                    <option>英语</option>
+                                </select>
+                            	<input type="text" class="sertxt" value="输入老师姓名和教学点关键字" />
+                                <span class="sertb" style="left:83.5%;top:35%;"></span>
+                                <a href="#" class="tianjia">添加阅卷老师</a>
+                        </div>
+    					<table width="100%" cellpadding="0" cellspacing="0" border="0" style="cursor:pointer;" class="biao">
+                            <tr>
+                                <th width="10%">序号 </th>
+                                <th width="18%">学段</th>
+                                <th width="18%">学科</th>
+                                <th width="18%">指定阅卷老师</th>
+                                <th width="18%">所属教学点</th>
+                                <th width="18%">操作</th>
+                            </tr>
+                            <tr>
+                            	<td>01</td>
+                                <td class="li lii">小学</td>
+                                <td class="li">语文</td>
+                                <td class="li">张玲玲</td>
+                                <td class="li">聚德花苑辅导中心</td>
+                                <td>	
+                                    <span class="edite" title="修改"></span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td>02</td>
+                                <td class="li lii">小学</td>
+                                <td class="li">数学</td>
+                                <td class="li">黄良力</td>
+                                <td class="li">聚德花苑辅导中心</td>
+                                <td>	
+                                    <span class="edite" title="修改"></span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td>03</td>
+                                <td class="li lii">小学</td>
+                                <td class="li">英语</td>
+                                <td class="li">高珍珍</td>
+                                <td class="li">聚德花苑辅导中心</td>
+                                <td>	
+                                    <span class="edite" title="修改"></span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td class="li lii">小学</td>
+                                <td class="li">英语</td>
+                                <td class="li">王楠楠</td>
+                                <td class="li">聚德花苑辅导中心</td>
+                                <td>    
+                                    <span class="edite" title="修改"></span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td class="li lii">小学</td>
+                                <td class="li">英语</td>
+                                <td class="li">聂潇潇</td>
+                                <td class="li">聚德花苑辅导中心</td>
+                                <td>    
+                                    <span class="edite" title="修改"></span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>     
+                        </table>
+                        <div class="pagelist">
+                            <div class="page clearFix">
+                                <a class="last" href="###">上一页</a><a href="###">1</a><a class="hoverpage" href="###">2</a><a href="###">3</a><a href="###">4</a><a href="###">5</a><a class="next" href="###">下一页</a><label><input type="text" value="1"><a href="####" class="tiao">GO</a></label>
+                            </div>
+                        </div>
+                    </div>  				
+				</div>
+
+				
+
+
+				<div class="rightCon you3" style="display:none;float:left; ">
+                    <div class="curTitle">
+                        <span>修改阅卷老师</span>
+                        <a href="#" class="fanhui2" style="width: 120px;">返回阅卷老师管理</a>
+                    </div>
+                    <div style="margin:30px 0; ">
+                        <span style="color:black; ">试卷学段：</span>
+                        <select style="width:180px;">
+                            <option selected="selected">请选择试卷学段</option>
+                            <option>小学</option>
+                            <option>初中</option>
+                            <option>高中</option>
+                        </select>
+                    </div>
+                    <div style="margin:30px 0; ">
+                        <span style="color:black; ">试卷学科：</span>
+                        <select style="width:180px;" >
+                            <option selected="selected">请选择试卷学科</option>
+                            <option>语文</option>
+                            <option>数学</option>
+                            <option>英语</option>
+                        </select>
+                    </div>
+                    <div style="margin:30px 0 16px 0; ">
+                        <span style="color:black; ">选择老师：</span>
+                        <input type="text" class="sertxt shu" value="输入老师姓名" style="width:180px;position:relative;left:-2px; border:1px solid #ccc;"/>
+                    </div>
+                    <div style="width:100%; z-index:1000;    ">
+                        <button style="background:#f7f7f7;color:#b4b4b4;border:1px solid #eee;width:90px;height: 25px;margin: 0 80px;display:block;  font-size:16px;" class="bao">保存</button>
+                    </div>
+                    <div class="sh">
+                      <table  width="446px" rules="none" cellpadding="0" cellspacing="0"   border="0" class="biao " style="    " >
+                        <tr class="tty" style="  ">
+                                        <th width="15%">老师姓名</th>
+                                        <th width="29%">手机号码</th>
+                                        <th width="8%">学段</th>
+                                        <th width="24%">学科</th>
+                                        <th width="24%">教学点名称</th>
+                        </tr>
+                      </table>
+                      <div style="overflow: auto;overflow-x: hidden;height: 300px;width: 446px; ">
+                        <table  rules="none" cellpadding="0" cellspacing="0"   border="0" class="biao " style="margin: 0;    ">
+                            <tr class="ty">
+                                <td class="tz" >张三</td>
+                                <td >15936669822</td>
+                                <td >七年级</td>
+                                <td >英语</td>
+                                <td >聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">李四</td>
+                                <td>1689922161</td>
+                                <td>七年级</td>
+                                <td>语文</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">王五</td>
+                                <td>1985895222</td>
+                                <td>七年级</td>
+                                <td>数学</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">陈晨</td>
+                                <td>187922633</td>
+                                <td>八年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小明</td>
+                                <td>198556344</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                        </table>      
+                      </div> 
+                    </div>
+				</div>
+
+                <div class="rightCon you2" style="display:none;float:left;">
+                    <div class="curTitle">
+                        <span>添加阅卷老师</span>
+                        <a href="#" class="fanhui" style="width: 120px;">返回添加阅卷老师</a>
+                    </div>
+                    <div style="margin:30px 0; ">
+                        <span style="color:black; ">学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;段：</span>
+                        <select style="width:180px;">
+                            <option selected="selected">请选择试卷学段</option>
+                            <option>小学</option>
+                            <option>初中</option>
+                            <option>高中</option>
+                        </select>
+                    </div>
+                    <div style="margin:30px 0; ">
+                        <span style="color:black; ">学&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;科：</span>
+                        <select style="width:180px;" >
+                            <option selected="selected">请选择试卷学科</option>
+                            <option>语文</option>
+                            <option>数学</option>
+                            <option>英语</option>
+                        </select>
+                    </div>
+                    <div style="margin:30px 0 16px 0; ">
+                        <span style="color:black; ">阅卷老师：</span>
+                        <input type="text" class="sertxt shu" value="输入老师姓名/手机号码" style="width:180px;position:relative;left:-2px; border:1px solid rgb(169, 169, 169);"/>
+                    </div>
+                    <div style="width:100%; z-index:1000;    ">
+                        <button style="background:#f7f7f7;color:#b4b4b4;border:1px solid #eee;width:90px;height: 25px;margin: 0 80px;display:block;  font-size:16px;" class="bao">保存</button>
+                    </div>
+                    <div style="width:400px;height:120px;background:rgba(0,0,0,0.5);  color:white;margin-top:30px;position:relative;display:none;   ">
+                        <p style="position:absolute;left:50px;top:30px;   ">当前编辑内容未保存，是否确认返回阅卷老师管理？</p>
+                        <button style="background:white;border:0;width:90px;height: 25px;color:black;font-size:16px;outline:none;position:absolute;top:70px; left:100px; " class="ssd1">确定</button>
+                        <button style="background:white;border:0;width:90px;height: 25px;color:black;font-size:16px;outline:none;position:absolute;top:70px; left:220px;" class="ssd2">取消</button>
+                    </div>
+                    <div class="sh">
+                      <table  width="446px" rules="none" cellpadding="0" cellspacing="0"   border="0" class="biao " style="    " >
+                        <tr class="tty" style="  ">
+                                        <th width="15%">老师姓名</th>
+                                        <th width="29%">手机号码</th>
+                                        <th width="8%">学段</th>
+                                        <th width="24%">学科</th>
+                                        <th width="24%">教学点名称</th>
+                        </tr>
+                      </table>
+                      <div style="overflow: auto;overflow-x: hidden;height: 300px;width: 446px; ">
+                        <table  rules="none" cellpadding="0" cellspacing="0"   border="0" class="biao " style="margin: 0;    ">
+                            <tr class="ty">
+                                <td class="tz" >张三</td>
+                                <td >15936669822</td>
+                                <td >七年级</td>
+                                <td >英语</td>
+                                <td >聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">李四</td>
+                                <td>1689922161</td>
+                                <td>七年级</td>
+                                <td>语文</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">王五</td>
+                                <td>1985895222</td>
+                                <td>七年级</td>
+                                <td>数学</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">陈晨</td>
+                                <td>187922633</td>
+                                <td>八年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小明</td>
+                                <td>198556344</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                            <tr class="ty">
+                                <td class="tz">小芳</td>
+                                <td>18951333</td>
+                                <td>九年级</td>
+                                <td>历史</td>
+                                <td>聚德花苑辅导中心</td>
+                            </tr>
+                        </table>      
+                      </div> 
+                    </div>
+                     
+                </div>
+			</div>
+		</div>
+		
+		
+		
+
+
+	</body>
+    <script type="text/javascript">
+       $(function() {
+            $(".del").click(function(){
+              $(this).parent().parent().remove(); 
+            });
+             $(".edite").click(function(){
+                $(".you1").hide();
+                $(".you3").show();
+
+            });
+           	$(".fanhui2").click(function(){
+                $(".you3").hide();
+                $(".you1").show();
+
+            });
+            
+            $(".tianjia").click(function(){
+                $(".you1").hide();
+                $(".you2").show();
+
+            });
+             $(".fanhui").click(function(){
+                $(".you2").hide();
+                $(".you1").show();
+
+            });
+            $(".ssd1").mouseover(function(){
+                $(".ssd1").css("background-color","#9ad289");
+                $(".ssd1").css("color","white");
+            }).mouseout(function(){
+                $(".ssd1").css("background-color","white");
+                $(".ssd1").css("color","black");
+            });
+            $(".ssd2").hover(function(){
+                $(".ssd2").css("background-color","#9ad289");
+                $(".ssd2").css("color","white");
+            }).mouseout(function(){
+                $(".ssd2").css("background-color","white");
+                $(".ssd2").css("color","black");
+            });
+          $('.shu').keyup(function(){
+            if($(this).val()==""||$(this).val()=="输入老师姓名/手机号码"){
+                $('.sh').hide();
+                return; 
+            }
+            $('.sh').show();
+            $('.sh tr').hide()
+             .filter(":contains('" +($(this).val()) + "')").show();
+             if( $('.sh tr')
+             .filter(":contains('" +($(this).val()) + "')").length>0){
+                $(".sh .tty").show();  
+             }
+
+            }).keyup();
+            $(".ty").click(function(){
+                 $('.shu').val($(this).find(".tz").html());
+                 $('.sh').hide();
+             });
+            $(".shu").click(function(){
+                $(this).val("");
+                $('.sh').hide();
+            });
+        });
+    </script>
+</html>

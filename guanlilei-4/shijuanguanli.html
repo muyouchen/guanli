@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>试卷管理</title>
+        <script type="text/javascript" src="js/jquery-1.12.0.js" ></script>
+        <link rel="stylesheet" href="css/global.css" />
+        <link rel="stylesheet" href="css/back.css" />
+        <link href="css/shijuanguanli.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" href="img/ico.ico"/>
+    </head>
+    <body onselectstart="return false" style="-moz-user-select:none;">
+        
+        <div class="bContent clearFix">
+            <div class="bMain">
+                <div class="leftNav">
+                    <dl>
+                        <dt>机构管理菜单</dt>
+                        <dd><a href="#">基本资料</a></dd>
+                        <dd class="cur"><a href="#">门户自定义</a></dd>
+                    </dl>
+                </div>
+                
+
+
+                <div class="rightCon"  style="padding:0;float:left;  ">
+                    <div style="height:40px;line-height:40px;color:#999999;font-size: 14px;padding-left:30px;    ">
+                        <span>您当前位置：机构管理-门户自定义</span>
+                    </div>
+                    <div style="height:38px;width:100%;border:1px solid #eee;border-left:none;border-right:none;overflow:hidden;     ">
+                        <a href="shijuanguanli.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;      " class="liang">试卷管理</a>
+                        <a href="dajuanjilu.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;      "  >答卷记录</a>
+                        <a href="yuejuanlaoshiguanli.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;     ">阅卷老师管理</a>
+                        <a href="menhubannershezhi.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee; float:left;    ">门户banner管理</a>
+                        <a href="guanyuwomen.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.6%;line-height:40px;text-align: center;display:inline-block;border-right:1px solid #eee;float:left;     " >关于我们页面编辑</a>
+                        <a href="lianxiwomen.html" style="font-size:14px;color:#000000;text-decoration:none;outline:none;height:40px;width:16.42%;line-height:40px;text-align: center;display:inline-block;float:left;     " >联系我们页面编辑</a>
+                    </div>
+                    <div style="padding:30px; padding-top:10px; ">
+                    <div class="searcha">
+                            <span style="cursor:pointer;">学段：</span>
+                            <select>
+                                <option selected="selected">全部</option>
+                                <option>小学</option>
+                                <option>初中</option>
+                                <option>高中</option>
+                            </select>
+                            <span style="margin-left:60px;cursor:pointer; ">学科：</span>
+                            <select  style="margin-right:182px; ">
+                                <option selected="selected">全部</option>
+                                <option>小学</option>
+                                <option>初中</option>
+                                <option>高中</option>
+                            </select>
+                            <input type="text" class="sertxt" value="输入试卷名称关键字" />
+                            <span class="sertb" style="left:83.5%;top:35%;"></span>
+                            <a href="#" class="tian">添加试卷</a>
+                    </div>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="by" style="cursor:pointer;">
+                            <tr>
+                                <th width="10%">序号 </th>
+                                <th width="20%">试卷名称</th>
+                                <th width="10%">学段</th>
+                                <th width="10%">年级</th>
+                                <th width="10%">学科</th>
+                                <th width="20%">获取试卷时间</th>
+                                <th width="20%">操作</th>
+                            </tr>
+                            <tr>
+                                <td>01</td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                                <td>
+                                    <span class="edite tui" >推荐至首页</span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                                <td>
+                                    <span class="edite" >从首页取消</span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>
+                           <tr>
+                                <td>03</td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                                <td>
+                                    <span class="edite tui" >推荐至首页</span>
+                                    <span class="del" title="删除"></span>
+                                </td>
+                            </tr>    
+                        </table>
+                        <div class="pagelist">
+                            <div class="page clearFix">
+                                <a class="last" href="###">上一页</a><a href="###">1</a><a class="hoverpage" href="###">2</a><a href="###">3</a><a href="###">4</a><a href="###">5</a><a class="next" href="###">下一页</a><label><input type="text" value="1"><a href="####" class="tiao">GO</a></label>
+                            </div>
+                        </div>
+                        </div>                  
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div id="ceng"></div>
+        <!--弹出框-->
+
+        <div class="alertBox tan" style="display: none;">
+            <div class="alertLoginBox" style="padding:0 8px; ">
+                <img class="closeAlertBox" src="images/icon-007.png"/>
+                <div class="rightCon">
+                    <div class="curTitle">
+                        <span>试卷名称</span>
+                    </div>
+                </div>
+                <p style="margin:10px 0 5px 8px;color:black;  ">我的资源夹>试卷</p>
+                <input type="text" class="sertxt" value="输入试卷名称关键字"style="position: absolute;top:60px;left:529px; color: #919191" />
+                <span class="sertbq" style="position: absolute;top:60px;left:655px;"></span>
+                <table width="667px;" cellpadding="0" cellspacing="0" border="0" class="biao" style="margin:15px auto 0 auto;cursor:pointer;   ">
+                            <tr>
+                                <th width="15%" style="/*color:#4fc76e;*/" ><input type="checkbox" style="position: relative;top:2px;right:3px;"class="quan" />全选</th>
+                                <th width="20%">试卷名称</th>
+                                <th width="15%">学段</th>
+                                <th width="15%">年级</th>
+                                <th width="15%">学科</th>
+                                <th width="20%">获取试卷时间</th>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr>
+                           <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr> 
+                            <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr> 
+                            <tr>
+                                <td><input type="checkbox" name="xuan" /></td>
+                                <td>七年级入学测试卷</td>
+                                <td>初中</td>
+                                <td>七年级</td>
+                                <td>英语</td>
+                                <td>2016-10-21 09:50</td>
+                            </tr>       
+                        </table>
+                      
+                        <div class="pagelist">
+                            <div class="page clearFix">
+                                <a class="last" href="###">上一页</a><a href="###">1</a><a class="hoverpage" href="###">2</a><a href="###">3</a><a href="###">4</a><a href="###">5</a><a class="next" href="###">下一页</a><label><input type="text" value="1"><a href="####" class="tiao">GO</a></label>
+                            </div>
+                        </div>         
+                        <div style="width:100%;padding:0 220px;   ">
+                            <button style="background:#f7f7f7;color:#b4b4b4;border:1px solid #eee;width:100px;height: 30px;font-size:16px;margin-right:30px;outline:none; " class="qwe qwee">确定</button>
+                            <button style="background:#f7f7f7;color:#b4b4b4;border:1px solid #eee;width:100px;height: 30px;font-size:16px;outline:none;" class="qwe">取消</button>
+                        </div>
+            </div>
+        </div>
+        
+        <div class="alertBox tan3" style="display: none;">
+            <div class="alertLoginBox closeAlertBox3" style="padding:0 8px; ">
+                <img class="closeAlertBox" src="images/icon-007.png"/>
+                <div class="rightCon">
+                    <div class="curTitle">
+                        <span>试卷名称</span>
+                    </div>
+                </div>
+                <div>
+                    <p style="margin:30px 86px;font-size:16px;  ">试卷已经成功添加至机构门户</p>
+                    <button style="background:#f7f7f7;color:#b4b4b4;border:1px solid #eee;width:100px;height: 30px;font-size:16px;outline:none;margin:0 145px 0 145px;" class="qwe ttl">确定</button>
+                </div>       
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="alertBox tan2" style="display: none;">
+            <div class="alertLoginBox" style="padding:0 8px;height: 400px;width:600px;  ">
+                <img class="closeAlertBox2" src="images/icon-007.png" />
+                <div style="width:100%;display:flex;justify-content:center;align-items:center;height:80px;margin-top:40px;     ">
+                    <h2 style="color:black; ">推荐至首页展示</h2>
+                </div>
+                <div style="border:1px dashed #ccc;width:70%;margin: 0 auto;  "></div>
+                <div style="width:70%;margin:50px auto;display:flex;justify-content:center;align-items:center;  ">
+                    <input type="radio" name="zhanshi" class="zhanshi" /><span style="margin-right:8px; ">展示位1</span>
+                    <input type="radio" name="zhanshi" class="zhanshi"/><span style="margin-right:8px; ">展示位2</span>
+                    <input type="radio" name="zhanshi" class="zhanshi" /><span style="margin-right:8px; ">展示位3</span>
+                    <input type="radio" name="zhanshi" class="zhanshi" /><span style="margin-right:8px; ">展示位4</span>
+                </div>
+                <div style="width:70%;margin:50px auto;display:flex;justify-content:center;align-items:center;  ">
+                    <input type="radio" name="zhanshi" class="zhanshi" /><span style="margin-right:8px; ">展示位5</span>
+                    <input type="radio" name="zhanshi" class="zhanshi"/><span style="margin-right:8px; ">展示位6</span>
+                    <input type="radio" name="zhanshi" class="zhanshi" /><span style="margin-right:8px; ">展示位7</span>
+                    <input type="radio" name="zhanshi" class="zhanshi" /><span style="margin-right:8px; ">展示位8</span>
+                </div>
+                <div style="margin-top:20px;width:100%;padding:0 180px;   ">
+                            <button style="background:#2fbb00;border:0;width:100px;height: 30px;color:white;font-size:16px;margin-right:30px;outline:none; ">提交</button>
+                            <button style="background:#2fbb00;border:0;width:100px;height: 30px;color:white;font-size:16px;outline:none;">取消</button>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        
+
+
+        
+    </body>
+    <script type="text/javascript">
+       $(function() {
+            $(".del").click(function(){
+              $(this).parent().parent().remove(); 
+            });
+            $(".qwee").click(function(){
+                $(".tan").hide();
+                $(".tan3").show();
+            });
+            $(".ttl").click(function(){
+                $(".tan3").hide();
+                $("#ceng").hide();
+            });
+            $(".tian").click(function(){
+                $("#ceng").show();
+                $(".tan").show();
+
+            });
+            $(".tui").click(function(){
+                $("#ceng").show();
+                $(".tan2").show();
+
+            });
+            $(".closeAlertBox3").click(function(){
+                $(".tan3").hide();
+                $("#ceng").hide() 
+            });
+             $(".closeAlertBox2").click(function(){
+                $(".tan2").hide();
+                $("#ceng").hide() 
+            });
+            $(".closeAlertBox").click(function(){
+                $(".tan").hide();
+                $("#ceng").hide() 
+            });
+            $(".quan").click(function(){
+                
+
+                if($(this).is(':checked')){
+                    $(".biao input[name='xuan']").prop('checked',true);
+                }else{
+                    
+                   $(".biao input[name='xuan']").prop('checked',false);
+                    
+                }
+
+                
+            });
+           
+            
+        });
+    </script>
+</html>
